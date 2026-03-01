@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark1: hsl(240, 36%, 14%);
+  --dark2: #242F49;
+  --dark3: #384358;
+  --cream: #FFA586;
+  --red1: #B51A2B;
+  --red2: #541A2E;
+  --white: #F5F5F5;
+}
+
+body {
+  font-family: Nunito;
+}
+
+footer {
+  margin-top: 15rem;
+  background-color: var(--dark2);
+  width: 100%;
+  
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+
+    h4 {
+      margin: 1.7em 0 0 0;
+      font-size: 3rem;
+      font-weight: 800;
+      color: var(--white);
+
+      span {
+        color: var(--red1);
+      }
+    }
+
+    .link-footer {
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        list-style: none;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+    }
+
+    p {
+      font-weight: 350;
+      margin: 0 0 1em 0;
+    }
+  }
+}

@@ -1,0 +1,135 @@
+
+:root {
+  --dark1: #16162F;
+  --dark2: #242F49;
+  --dark3: #384358;
+  --cream: #FFA586;
+  --red1: #B51A2B;
+  --red2: #541A2E;
+  --white: #F5F5F5;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Nunito;
+  color: var(--white);
+}
+
+body {
+  background-color: var(--dark1);
+}
+
+header {
+  width: 100%;
+  height: auto;
+  padding: 1.5em;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    h3 {
+      font-size: 3rem;
+      font-weight: 900;
+      cursor: pointer;
+
+      span {
+        color: var(--red1);
+      }
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4em;
+
+      li {
+        font-size: 1.4rem;
+        font-weight: 600;
+        list-style: none;
+        cursor: pointer;
+
+      }
+
+      .active {
+        color: var(--red1);
+      }
+
+      li:hover {
+        color: var(--red1);
+        transition: 300ms;
+      }
+    }
+  }
+}
+
+.home {
+
+  /* border: 1px solid #B51A2B; */
+  width: 100%;
+  height: auto;
+  margin-top: 6em;
+
+  .home-content {
+    /* border: 1px solid #B51A2B; */
+    margin: 4em 20em;
+
+    h1 {
+      font-size: clamp(1.5rem, 9vw, 4rem);
+    }
+
+    h2 {
+      font-size: clamp(1rem, 8.5vw, 3.5rem);
+
+      span {
+        color: var(--red1);
+        font-weight: 900;
+      }
+    }
+
+    p {
+      font-size: clamp(0.5rem, 4vw, 1.3rem);
+      font-weight: 100;
+      margin-top: 20px;
+
+      span {
+        color: var(--red1);
+      }
+    }
+
+    .home-btn {
+
+      margin: 20px 0;
+      display: flex;
+      gap: 2em;
+
+      button {
+        background-color: transparent;
+        border: 3px solid var(--red1);
+        border-radius: 50px;
+        padding: 15px 25px;
+        font-size: 1rem;
+        font-weight: 600;
+       
+        cursor: pointer;
+
+        a {
+          text-decoration: none;
+        }
+      }
+
+      button:hover {
+        background-color: var(--red1);
+        color: var(--dark1);
+        transition: 200ms;
+      }
+    }
+  }
+}

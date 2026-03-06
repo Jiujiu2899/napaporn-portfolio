@@ -26,6 +26,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: flex-end;
+   border: 1px solid red;
 
 
    h3 {
@@ -48,5 +49,11 @@ body {
     cursor: pointer;
   }
 
+  .info {
+    font-size: 0.8rem;
+    color: #B51A2B;
+    text-decoration: none;
+    border: 1px solid #B51A2B ;
+  }
  
 }

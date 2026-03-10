@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="src/letter-j.png" />
 	<meta name="viewport" content="width=device-width" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=pswa">
 	<link rel="stylesheet"
@@ -12,9 +13,9 @@
 	<link rel="stylesheet" href="styles/styleHome.css" />
 	<link rel="stylesheet" href="styles/styleST.css" />
 	<link rel="stylesheet" href="styles/styleProject.css" />
-	<link rel="stylesheet" href="styles/styleAboutme.css">
-	<link rel="stylesheet" href="styles/styleContact.css">
-	<link rel="stylesheet" href="styles/styleFooter.css">
+	<link rel="stylesheet" href="styles/styleAboutme.css" />
+	<link rel="stylesheet" href="styles/styleContact.css" />
+	<link rel="stylesheet" href="styles/styleFooter.css" />
 
 	<title>My Portfolio</title>
 </head>
@@ -23,7 +24,13 @@
 	<header>
 		<nav>
 			<h3 href="#home">JIU<span>JIU</span></h3>
-			<ul id="myNav">
+			<div class="hamburger" id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			
+			<ul class="hamburger-nav show" id="myNav">
 				<li id="home" class="active js-navBtn">Home</li>
 				<li class="js-navBtn">Skills</li>
 				<li class="js-navBtn">Project</li>
@@ -180,6 +187,7 @@
 		</footer>
 
 		<script src="script/scriptHome.js"></script>
+		<script src="script/hamburger.js"></script>
 </body>
 
 </html>

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -21,39 +20,36 @@ body {
 }
 
 .contact {
-   margin-top: 4rem;
-   padding: 0 4rem;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-end;
-   border: 1px solid red;
-
-
-   h3 {
-   font-size: 1.8rem;
-    margin-left: 0.5rem;
-   }
-
-   .svg-container {
-    display: flex;
-    gap: 25px;
-   }
-
-  .icon-svg path{
-    fill: #B51A2B;
-  }
-
-  .icon-svg {
-    margin-top: 2rem;
-    width: 3rem;
-    cursor: pointer;
-  }
-
-  .info {
-    font-size: 0.8rem;
-    color: #B51A2B;
-    text-decoration: none;
-    border: 1px solid #B51A2B ;
-  }
- 
+  margin-top: 4rem;
+  padding: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* border: 1px solid red; */
 }
+.contact h3 {
+  font-size: 1.8rem;
+  margin-left: 0.5rem;
+}
+.contact .svg-container {
+  display: flex;
+  gap: 25px;
+}
+.contact .icon-svg path {
+  fill: #B51A2B;
+}
+.contact .icon-svg {
+  margin-top: 2rem;
+  width: 4.5rem;
+  cursor: pointer;
+}
+.contact .info {
+  color: #B51A2B;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 10rem;
+  margin-top: 2.5em;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styleContact.css.map */

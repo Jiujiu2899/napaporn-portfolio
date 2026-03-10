@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -23,25 +24,32 @@ body {
   width: 100%;
   margin-top: 10em;
   padding: 3rem;
-}
-.st-container h3 {
-  font-size: 1.8rem;
-  margin-left: 2.3em;
+
+  h3 {
+    font-size: 1.8rem;
+    margin-left: 2.3em;
+
+  }
 }
 
 .ol-st {
+
   margin: 5em 0 0 4.5em;
   padding: 0 3em;
   border-left: 3.5px solid var(--red1);
-}
-.ol-st ul {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  row-gap: 2em;
-}
-.ol-st ul li {
-  font-weight: 600;
-  font-size: 1.2em;
+
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 2em;
+    
+
+
+    li {
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+  }
 }
 
-/*# sourceMappingURL=styleST.css.map */

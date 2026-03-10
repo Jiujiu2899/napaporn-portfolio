@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -24,41 +23,37 @@ footer {
   margin-top: 15rem;
   background-color: var(--dark2);
   width: 100%;
-  
-
-  .footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3em;
-
-    h4 {
-      margin: 1.7em 0 0 0;
-      font-size: 3rem;
-      font-weight: 800;
-      color: var(--white);
-
-      span {
-        color: var(--red1);
-      }
-    }
-
-    .link-footer {
-
-      ul {
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-        list-style: none;
-        font-weight: 600;
-        font-size: 1.1rem;
-      }
-    }
-
-    p {
-      font-weight: 350;
-      margin: 0 0 1em 0;
-    }
-  }
 }
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+footer .footer h4 {
+  margin: 1.7em 0 0 0;
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--white);
+}
+footer .footer h4 span {
+  color: var(--red1);
+}
+footer .footer .link-footer ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+footer .footer .link-footer ul li {
+  cursor: pointer;
+}
+footer .footer p {
+  font-weight: 350;
+  margin: 0 0 1em 0;
+}
+
+/*# sourceMappingURL=styleFooter.css.map */

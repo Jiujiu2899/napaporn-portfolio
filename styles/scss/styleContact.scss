@@ -59,3 +59,10 @@ body {
   }
  
 }
+
+@media screen and (max-width: 1024px) {
+  .contact {
+    padding: 0 2rem;
+    transition: all 0.3s ease;
+  }
+}

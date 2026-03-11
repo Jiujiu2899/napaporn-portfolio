@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark1: #16162f;
+  --dark2: hsl(222, 34%, 21%);
+  --dark3: #384358;
+  --cream: #ffa586;
+  --red1: #b51a2b;
+  --red2: #541a2e;
+  --white: #f5f5f5;
+}
+
+body {
+  font-family: Nunito;
+}
+
+.st-container {
+  width: 100%;
+  margin-top: 10em;
+  padding: 3rem;
+
+  h3 {
+    font-size: 1.8rem;
+    margin-left: 2.3em;
+  }
+}
+
+.ol-st {
+  margin: 5em 0 0 4.5em;
+  padding: 0 3em;
+  border-left: 3.5px solid var(--red1);
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 2em;
+
+    li {
+      font-weight: 600;
+      font-size: 1.2em;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .st-container {
+    h3 {
+      margin-left: 1.5em;
+      transition: all 0.3s ease;
+    }
+  }
+
+  .ol-st {
+    margin: 5em 0 0 2.5em;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .ol-st {
+
+    ul {
+      grid-template-columns: repeat(5, 1fr);
+      transition: all 0.3s ease;
+      
+      li {
+        font-size: 1em;
+        font-weight: 500;
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}

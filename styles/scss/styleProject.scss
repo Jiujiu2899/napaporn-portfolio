@@ -85,20 +85,34 @@ body {
   }
 }
 
-
 //tablet
 @media screen and (max-width: 1024px) {
   .project-container {
-  .card-project {
-    
-    .project {
-      width: 200px;
-
-      img {
+    h3 {
+      font-size: 1.8rem;
+      margin-left: 1em;
+      transition: all 0.3s ease;
+    }
+    .card-project {
+      .project {
         width: 200px;
-        height: 200px;
+        transition: all 0.3s ease;
+
+        img {
+          width: 200px;
+          height: 200px;
+        }
       }
     }
   }
 }
+
+@media screen and (max-width: 835px) {
+  .project-container {
+    .card-project {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+      transition: all 0.3s ease;
+    }
+  }
 }

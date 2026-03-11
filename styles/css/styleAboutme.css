@@ -64,4 +64,27 @@ body {
   color: var(--cream);
 }
 
+@media screen and (max-width: 1024px) {
+  .about-me h3 {
+    margin-left: 0.3em;
+    transition: all 0.3s ease;
+  }
+  .about-me .in-about {
+    margin: 3em 0.5em 0 0.5em;
+    transition: all 0.3s ease;
+  }
+}
+@media screen and (max-width: 835px) {
+  .about-me .in-about {
+    flex-direction: column;
+  }
+  .about-me .in-about .left {
+    width: 100%;
+  }
+  .about-me .in-about .left img {
+    height: 20em;
+    object-fit: cover;
+  }
+}
+
 /*# sourceMappingURL=styleAboutme.css.map */

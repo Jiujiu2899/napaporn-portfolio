@@ -59,7 +59,8 @@ footer .footer p {
 @media screen and (max-width: 480px) {
   footer {
     position: absolute;
-    left: 0px;
+    margin: 15rem -5rem 0 -5rem;
+    background-color: #b51a2b;
   }
   footer .footer {
     gap: 2em;
@@ -70,11 +71,7 @@ footer .footer p {
   footer .footer .link-footer ul {
     gap: 30px;
     font-weight: 400;
-    font-size: 0.8rem;
-  }
-  footer .footer p {
-    font-size: 10px;
-    font-weight: 300;
+    font-size: 1rem;
   }
 }
 

@@ -24,7 +24,7 @@ body {
   margin-top: 10em;
   padding: 3rem;
 }
-.st-container h3 {
+.st-container .stack-title {
   font-size: 1.8rem;
   margin-left: 2.3em;
 }
@@ -45,7 +45,7 @@ body {
 }
 
 @media screen and (max-width: 1024px) {
-  .st-container h3 {
+  .st-container .stack-title {
     margin-left: 1.5em;
     transition: all 0.3s ease;
   }
@@ -60,6 +60,28 @@ body {
     transition: all 0.3s ease;
   }
   .ol-st ul li {
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+}
+@media screen and (max-width: 480px) {
+  .st-container {
+    margin-top: 7em;
+  }
+  .st-container .stack-title {
+    margin-left: -0.5em;
+  }
+  .st-container .ol-st {
+    margin: 4em 0 0 -0.5em;
+    padding: 0 0 0 3em;
+  }
+  .st-container .ol-st ul {
+    grid-template-columns: repeat(3, 1fr);
+    transition: all 0.3s ease;
+    column-gap: 1em;
+  }
+  .st-container .ol-st ul li {
     font-size: 1em;
     font-weight: 500;
     transition: all 0.3s ease;

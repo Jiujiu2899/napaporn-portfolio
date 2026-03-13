@@ -165,9 +165,45 @@ header nav .hamburger span {
     top: 2.2em;
     width: 15em;
     padding: 2em;
+    background-color: var(--white);
+  }
+  header nav .hamburger-nav li {
+    color: var(--dark1);
+    font-weight: 800;
   }
   header nav .hamburger-nav.show {
     display: flex;
+    transition: all 0.3s ease;
+  }
+}
+@media screen and (max-width: 480px) {
+  header nav h3 {
+    font-size: 2rem;
+    transition: all 0.3s ease;
+  }
+  header nav .hamburger span {
+    width: 30px;
+    height: 3px;
+    transition: all 0.3s ease;
+  }
+  header nav .hamburger-nav {
+    width: 10em;
+    padding: 2em 2em 1em 1em;
+    right: 4em;
+  }
+  header nav .hamburger-nav li {
+    color: var(--dark1);
+    font-weight: 600;
+  }
+  .home .home-content {
+    margin: 2em 5em;
+    transition: all 0.3s ease;
+  }
+  .home .home-content .home-btn {
+    gap: 1em;
+  }
+  .home .home-content .home-btn button {
+    border: 2px solid var(--red1);
   }
 }
 

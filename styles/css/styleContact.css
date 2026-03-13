@@ -58,5 +58,21 @@ body {
     transition: all 0.3s ease;
   }
 }
+@media screen and (max-width: 480px) {
+  .contact {
+    margin-right: -3em;
+    padding: 0 1rem;
+  }
+  .contact .svg-container {
+    gap: 15px;
+  }
+  .contact .icon-svg {
+    width: 3.5rem;
+  }
+  .contact .info {
+    font-size: 1.2rem;
+    margin-top: 3.7rem;
+  }
+}
 
 /*# sourceMappingURL=styleContact.css.map */

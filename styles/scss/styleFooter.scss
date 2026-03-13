@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap");
 
 * {
   padding: 0;
@@ -8,12 +8,12 @@
 
 :root {
   --dark1: hsl(240, 36%, 14%);
-  --dark2: #242F49;
+  --dark2: #242f49;
   --dark3: #384358;
-  --cream: #FFA586;
-  --red1: #B51A2B;
-  --red2: #541A2E;
-  --white: #F5F5F5;
+  --cream: #ffa586;
+  --red1: #b51a2b;
+  --red2: #541a2e;
+  --white: #f5f5f5;
 }
 
 body {
@@ -24,7 +24,6 @@ footer {
   margin-top: 15rem;
   background-color: var(--dark2);
   width: 100%;
-  
 
   .footer {
     display: flex;
@@ -45,7 +44,6 @@ footer {
     }
 
     .link-footer {
-
       ul {
         display: flex;
         flex-direction: row;
@@ -63,6 +61,31 @@ footer {
     p {
       font-weight: 350;
       margin: 0 0 1em 0;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  footer {
+    position: absolute;
+    left: 0px ;
+    
+    .footer {
+      gap: 2em;
+
+      h4 {
+        font-size: 2.5rem;
+      }
+      .link-footer {
+        ul {
+          gap: 30px;
+          font-weight: 400;
+          font-size: .8rem;
+        }
+      }
+      p {
+        font-size: 10px;
+        font-weight: 300;
+      }
     }
   }
 }

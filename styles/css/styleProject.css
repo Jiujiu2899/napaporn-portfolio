@@ -17,6 +17,7 @@
 
 body {
   font-family: Nunito;
+  position: relative;
 }
 
 .project-container {
@@ -105,6 +106,28 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     transition: all 0.3s ease;
+  }
+}
+@media screen and (max-width: 360px) {
+  .project-container .project-title {
+    margin-left: -1.5em;
+    font-size: 1.5rem;
+  }
+  .project-container .card-project {
+    grid-template-columns: repeat(1, 1fr);
+    transition: all 0.3s ease;
+  }
+  .project-container .card-project .project {
+    width: 320px;
+  }
+  .project-container .card-project .project img {
+    width: 320px;
+  }
+  .project-container .card-project .project .link-card-title {
+    font-size: 1rem;
+  }
+  .project-container .card-project .project .tools p {
+    font-size: 15px;
   }
 }
 

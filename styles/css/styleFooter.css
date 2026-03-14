@@ -77,5 +77,10 @@ footer .footer p {
     font-weight: 300;
   }
 }
+@media screen and (max-width: 360px) {
+  footer {
+    position: absolute;
+  }
+}
 
 /*# sourceMappingURL=styleFooter.css.map */

@@ -254,3 +254,23 @@ header {
   }
   
 }
+
+@media screen and (max-width: 380px) {
+  .home {
+    .home-content {
+      margin: 1.5em 3em;
+    }
+  }
+
+  header {
+    nav {
+      .hamburger-nav {
+        width: 8em;
+        li {
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

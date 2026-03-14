@@ -107,5 +107,22 @@ body {
     font-weight: 200;
   }
 }
+@media screen and (max-width: 360px) {
+  .about-me .aboutme-title {
+    font-size: 1.5rem;
+    margin-left: -2.5em;
+  }
+  .about-me .in-about .right {
+    padding: 0 0.5em;
+  }
+  .about-me .in-about .right h5 {
+    margin-top: 1em;
+    font-size: 1.1rem;
+  }
+  .about-me .in-about .right p {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+  }
+}
 
 /*# sourceMappingURL=styleAboutme.css.map */

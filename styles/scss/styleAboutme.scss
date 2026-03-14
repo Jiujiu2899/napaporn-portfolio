@@ -124,3 +124,25 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+ .about-me {
+  .aboutme-title {
+    font-size: 1.5rem;
+    margin-left: -2.5em;
+  }
+  .in-about {
+    .right {
+      padding: 0 .5em;
+      h5 {
+        margin-top: 1em;
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: .9rem;
+        padding-bottom: .5rem;
+      }
+    }
+  }
+ }
+}

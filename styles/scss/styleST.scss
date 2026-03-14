@@ -82,10 +82,10 @@ body {
     margin-top: 7em;
 
     .stack-title {
-      margin-left: -.5em;
+      margin-left: -0.5em;
     }
     .ol-st {
-      margin: 4em 0 0 -.5em;
+      margin: 4em 0 0 -0.5em;
       padding: 0 0 0 3em;
       ul {
         grid-template-columns: repeat(3, 1fr);
@@ -97,6 +97,24 @@ body {
           font-weight: 500;
           transition: all 0.3s ease;
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .st-container {
+    
+    .stack-title {
+      margin-left: -1em;
+      font-size: 1.5rem;
+    }
+    .ol-st {
+      margin: 4em 0 8em -1em;
+      ul {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2em;
+        transition: all 0.3s ease;
       }
     }
   }

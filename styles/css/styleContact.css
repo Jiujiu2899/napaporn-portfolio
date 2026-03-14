@@ -6,13 +6,13 @@
 }
 
 :root {
-  --dark1: #16162F;
+  --dark1: #16162f;
   --dark2: hsl(222, 34%, 21%);
   --dark3: #384358;
-  --cream: #FFA586;
-  --red1: #B51A2B;
-  --red2: #541A2E;
-  --white: #F5F5F5;
+  --cream: #ffa586;
+  --red1: #b51a2b;
+  --red2: #541a2e;
+  --white: #f5f5f5;
 }
 
 body {
@@ -36,7 +36,7 @@ body {
   gap: 25px;
 }
 .contact .icon-svg path {
-  fill: #B51A2B;
+  fill: #b51a2b;
 }
 .contact .icon-svg {
   margin-top: 2rem;
@@ -44,7 +44,7 @@ body {
   cursor: pointer;
 }
 .contact .info {
-  color: #B51A2B;
+  color: #b51a2b;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 10rem;
@@ -72,6 +72,21 @@ body {
   .contact .info {
     font-size: 1.2rem;
     margin-top: 3.7rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .contact h3 {
+    font-size: 1.5rem;
+  }
+  .contact .svg-container {
+    gap: 10px;
+  }
+  .contact .icon-svg {
+    width: 3rem;
+  }
+  .contact .info {
+    font-size: 1rem;
+    margin-top: 3.5rem;
   }
 }
 

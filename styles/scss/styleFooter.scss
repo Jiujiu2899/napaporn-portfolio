@@ -67,8 +67,8 @@ footer {
 @media screen and (max-width: 480px) {
   footer {
     position: absolute;
-    left: 0px ;
-    
+    left: 0px;
+
     .footer {
       gap: 2em;
 
@@ -79,7 +79,7 @@ footer {
         ul {
           gap: 30px;
           font-weight: 400;
-          font-size: .8rem;
+          font-size: 0.8rem;
         }
       }
       p {
@@ -87,5 +87,11 @@ footer {
         font-weight: 300;
       }
     }
+  }
+}
+@media screen and (max-width: 360px) {
+  footer {
+    position: absolute;
+    
   }
 }

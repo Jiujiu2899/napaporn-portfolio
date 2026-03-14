@@ -131,6 +131,33 @@ body {
   }
 }
 
+@media screen and (max-width: 412px) {
+  .project-container {
+    .project-title {
+      margin-left: -1.5em;
+      font-size: 1.5rem;
+    }
+    .card-project {
+      grid-template-columns: repeat(1, 1fr);
+      transition: all 0.3s ease;
+      .project {
+        width: 320px;
+        img {
+          width: 320px;
+        }
+        .link-card-title {
+          font-size: 1rem;
+        }
+        .tools {
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 360px) {
   .project-container {
     .project-title {

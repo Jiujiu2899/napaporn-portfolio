@@ -206,6 +206,18 @@ header nav .hamburger span {
     border: 2px solid var(--red1);
   }
 }
+@media screen and (max-width: 412px) {
+  .home .home-content {
+    margin: 1.5em 3em;
+  }
+  header nav .hamburger-nav {
+    width: 8em;
+  }
+  header nav .hamburger-nav li {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
 @media screen and (max-width: 380px) {
   .home .home-content {
     margin: 1.5em 3em;

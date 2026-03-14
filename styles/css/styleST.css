@@ -87,6 +87,20 @@ body {
     transition: all 0.3s ease;
   }
 }
+@media screen and (max-width: 412px) {
+  .st-container .stack-title {
+    margin-left: -1em;
+    font-size: 1.5rem;
+  }
+  .st-container .ol-st {
+    margin: 4em 0 8em -1em;
+  }
+  .st-container .ol-st ul {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2em;
+    transition: all 0.3s ease;
+  }
+}
 @media screen and (max-width: 360px) {
   .st-container .stack-title {
     margin-left: -1em;

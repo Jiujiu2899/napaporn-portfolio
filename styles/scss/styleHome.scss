@@ -227,19 +227,18 @@ header {
           transition: all 0.3s ease;
         }
       }
-        .hamburger-nav {
-          width: 10em;
-          padding: 2em 2em 1em 1em;
-          right: 4em;
-            li {
+      .hamburger-nav {
+        width: 10em;
+        padding: 2em 2em 1em 1em;
+        right: 4em;
+        li {
           color: var(--dark1);
           font-weight: 600;
         }
-        }
-      
       }
     }
-    .home {
+  }
+  .home {
     .home-content {
       margin: 2em 5em;
       transition: all 0.3s ease;
@@ -252,7 +251,26 @@ header {
       }
     }
   }
-  
+}
+
+@media screen and (max-width: 412px) {
+  .home {
+    .home-content {
+      margin: 1.5em 3em;
+    }
+  }
+
+  header {
+    nav {
+      .hamburger-nav {
+        width: 8em;
+        li {
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 380px) {
